@@ -1,0 +1,93 @@
+.main_title {
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .position-relative {
+    position: relative !important;
+  }
+  .menuText {
+    text-decoration: underline red ;
+    position: relative;
+    font-size: 40px;
+    color: #222222;
+    font-weight: 300;
+    margin-top: 240px;
+    font-family: "Oswald", serif;
+    z-index: 10;
+  }
+  
+@media  screen and(min-width:1200px) {
+    .menuText{
+        text-decoration: none;
+      }
+    .position-relative{
+        position: relative;
+    }
+    .kruq {
+    border-radius: 50%;
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    border: 3px solid #f9f9ff;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+  .kruq1 {
+    width: 180px;
+    height: 180px;
+   
+  }
+  .kruq2 {
+    width: 100px;
+    height: 100px;
+    
+  }
+  .cakeDishes,
+  .burgerDishes {
+    border-radius: 50%;
+    left: 50%;
+    position: absolute;
+  }
+  .cakeDishes {
+    margin-top: -15px;
+    margin-left: -15px;
+    width: 100px;
+    height: 100px;
+    left: 12px;
+    top: 12px;
+    animation: spin1 15s linear infinite;
+  }
+  .burgerDishes {
+    margin-top: -15px;
+    margin-left: -15px;
+    width: 80px;
+    height: 80px;
+    left: 24px;
+    bottom: 8px;
+    animation: spin2 10s linear infinite;
+  }
+  @keyframes spin1 {
+    from {
+      transform: rotate(0deg) translateY(-12px);
+    }
+  
+    to {
+      transform: rotate(360deg) translateY(-12px);
+    }
+  }
+  @keyframes spin2 {
+    from {
+      transform: rotate(0deg) translateY(-12px);
+    }
+  
+    to {
+      transform: rotate(360deg) translateY(-12px);
+    }
+  }
+  
+}

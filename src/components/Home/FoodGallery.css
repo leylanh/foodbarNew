@@ -1,0 +1,30 @@
+
+.pics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pics img {
+    width: 60%;
+    margin-right: 20px;
+    margin-bottom: 20px;}
+@media screen and (min-width:992px){
+    .pics {
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+      }
+    .pics img {
+    width: 30%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .bigger {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+    padding-right: 30px;
+  }
+}
+
+  

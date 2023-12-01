@@ -1,0 +1,29 @@
+button{
+    display: none;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 10px;
+}
+.info{
+    margin-left: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.info h5, p{
+    color: #777777;
+}
+.info p{
+    font-style: italic;
+}
+@media  screen and (min-width:992px) {
+    .row{
+        flex-direction: row;
+      
+    }
+    .row img{
+        width: 100%;
+    }
+}
