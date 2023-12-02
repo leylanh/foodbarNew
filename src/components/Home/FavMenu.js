@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import "./FavMenu.css";
-export default class FavMenu extends Component {
-    render() {
+export default  function FavMenu (){
+ 
         return (
             <div className="row">
                 <div>
@@ -74,7 +74,6 @@ export default class FavMenu extends Component {
                         
                     </div>
                 </div></div>
-
+        
         );
     }
-}

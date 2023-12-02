@@ -6,7 +6,7 @@ export default function FoodGallery(){
         <div className="row">
                 <div>
                     <div className="main_title position_relative">
-                        <h1 className="menuText">Our Favourite Menu</h1>
+                        <h1 className="menuText">Food Gallery</h1>
                         <div className="foodCircle foodCircle1">
                             <div className="foodCircle foodCircle2">
                                 <div className="cake">

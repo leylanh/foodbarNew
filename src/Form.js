@@ -17,7 +17,7 @@ export default function App(){
           <input placeholder="Select data & time" className="select" />
         </label>
         <label>
-          <select placeholder="Select event" className="selectEv">
+          <select placeholder="Select event" className="select">
             <option value="event">Select event</option>
             <option value="Dhaka">Select event Dhaka</option>
             <option value="Dilli">Select event Dilli</option>

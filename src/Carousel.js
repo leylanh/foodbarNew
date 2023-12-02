@@ -26,7 +26,7 @@ function ReactSimplyCarouselExample() {
 
             >
                 
-                <div className='row'>
+                <div className='row2'>
                     <img src='https://preview.colorlib.com/theme/foodbar/img/testimonials/testi-1.jpg.webp' alt='' style={{ width: 300, height: 300 }} />
                     <div className='info'>
                         <h4>Filipino Gomez</h4>
@@ -37,7 +37,7 @@ function ReactSimplyCarouselExample() {
                         </p>
                     </div>
                 </div>
-                <div  className='row'>
+                <div  className='row2'>
                     <img src='https://preview.colorlib.com/theme/foodbar/img/testimonials/testi-1.jpg.webp' alt='' style={{ width: 300, height: 300 }} />
                     <div className='info'>
                         <h4>Filipino Gomez</h4>

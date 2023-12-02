@@ -121,5 +121,10 @@ margin-left: 250px;
       margin-right: 15px;
       margin-left: 100px;
       color: #777777;}
-  
+   .menuList{
+    padding-left: 5%;
+   }
+   .row{
+    display: block;
+   }
 }
